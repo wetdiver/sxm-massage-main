@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel='canonical' href=''>
+    <title>
+        <%= pg_title %>
+    </title>
+    <meta name="description" content="<%= pg_description %>">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+
+
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-fit-text" src="/js/amp-fit-text-0.1.js"></script>
+    <script defer src='/js/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/font.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/w3.css'>
+
+
+    <meta property=og:url content="/" />
+
+  <%- include('./assets/meta_'); %>
+
+
+
+
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-head="header">
+      <div data-title="">  <%= pg_title %></div>
+      <%- include('./assets/topNav'); %>
+        </div>
+        <div data-page="main">
+            <!--  -->
+            <div class="ui-content w3-padding">
+                
+                <%- include('./assets/tempNav'); %>
+
+
+            <h1>Rejuvenate Together: In-Villa Group Massage Package</h1>
+            Unwind with friends or family with our pampering mobile group massage service in Sint Maarten. 
+            Enjoy relaxing massages in the comfort of your hotel, villa, or Airbnb. 
+
+<div class="w3- col m12 m4 l3 w3-right w3-padding"><img src="<%= img_arr[0].src  %>" alt="<%=img_arr[0].alt %>" class="w3-image" />  </div>
+
+            <h2>Indulge Your Group with a Mobile Massage Experience </h2>
+            Imagine a luxurious spa experience delivered directly to your doorstep. Our all-female massage therapists will create a tranquil haven for your group getaway in Sint Maarten. (18 words)
+
+
+<h3>Affordable Relaxation for Groups of Four or More</h3>
+<p>Treat yourselves to a relaxing and affordable group massage experience. Group rates start at only $89.00 per person,
+ per hour, for groups of four or more.</p>
+<div class="w3-row">
+    <div class="w3-col m4"><img src="<%= img_arr[1].src  %>" alt="<%=img_arr[1].alt %>" class="w3-image" /></div>
+    <div class="w3-col m4"><img src="<%= img_arr[2].src  %>" alt="<%=img_arr[2].alt %>" class="w3-image" /></div>
+    <div class="w3-col m4"><img src="<%= img_arr[3].src  %>" alt="<%=img_arr[3].alt %>" class="w3-image" /></div>
+</div>
+
+
+    <h4>The Perfect Way to Bond on Your Caribbean Vacation</h4> 
+    Our mobile group massage service is the perfect way to unwind and 
+    bond with friends or family during your Caribbean vacation. 
+
+
+        <h5>Customize Your Massage Experience </h5> 
+        Choose from a variety of massage techniques to create a
+         personalized experience for your group. Swedish, deep tissue, 
+         and aromatherapy massages are all available. 
+
+
+            <h6>Book Your In-Villa Group Massage Today </h6> 
+
+Don't miss out on this opportunity to pamper yourselves 
+together. Book your in-villa group massage service in 
+Sint Maarten today! 
+
+
+
+
+
+            </div>
+            <!--  -->
+
+            <!-- <amp-img id="firstImage" ; layout='responsive' ; style="float:right;"
+        alt="st maarten massage onsite on location" title="sxm-massage-ban1"
+        src="<%= img_arr[0].src %>" width="180px" height="180px" 
+        srcset="
+        <%= img_arr[0].src %> 220w,
+        <%= img_arr[0].src %> 320w"
+ sizes="(max-width: 350px) 18vw, 22vw">
+    </amp-img> -->
+        </div>
+    </div>
+</body>
+
+</html>

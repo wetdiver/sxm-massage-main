@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        <%= pg_title %>
+    </title>
+    <meta name="description" content="<%= pg_description %>">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-fit-text" src="/js/amp-fit-text-0.1.js"></script>
+    <script defer src='/js/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/font.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/w3.css'>
+
+    <%- include('./assets/meta_'); %>
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-head="header">
+            <div data-title="">
+                <%= site_title %>
+            </div>
+
+            <%- include('./assets/topNav'); %>
+
+
+        </div>
+        <div data-page="main">
+            <!--  -->
+            <div class="ui-content w3-padding">
+
+                <%- include('./assets/tempNav'); %>
+
+                <p>Indulge in Relaxation: Your SXM Mobile Massage Experts - St Maarten Massage Service</p>  
+                <img src="<%= img_arr[0].src %>"  alt="<%= img_arr[0].src %>" title="<%= img_arr[0].title %> width="100%" class="w3-image w3-col m4 w3-right">       
+                <p>Unwind and rejuvenate in the comfort of your own space with [Your Business Name], Sint Maarten's premier
+                                mobile massage service.</p>
+                <p>We bring the spa experience directly to you, offering a variety of therapeutic
+                                massages to ease tension, soothe muscles, and melt away stress.</p>            
+                <p>Our certified massage therapists are
+                                experts in Swedish deep tissue, sports massage, and more, creating a personalized treatment plan to meet
+                                your specific needs.</p>               
+                <p>Whether you're seeking relaxation after a long day exploring the island's beauty or need targeted muscle
+                                relief, we cater to your convenience. Browse our massage <a href="/menu-options"  title="massage-menu-options"></a>  menu online and book your in-room appointment
+                                today!</p>
+                
+                  
+                                
+                                <ul class="w3-ul">
+                                    <li>Convenience: Emphasize the ease of booking an in-room massage without traveling to a spa.</li>
+                                    <li>Expertise: Briefly mention your massage therapists' qualifications and experience.</li>
+                                    <li>Customization: Touch on the variety of massage styles you offer (Swedish, Deep Tissue, etc.) and
+                                        how clients can personalize their experience.</li>
+                                    <li>Location: Target local searches by mentioning you serve Sint Maarten/St. Martin (including
+                                        specific areas if applicable).</li>
+                                </ul>
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+              
+              
+
+               
+                    <div class="w3-row">
+                        <div class="w3-col s10"> <p>Also With our personalized approach and meticulous attention to detail, you can be confident that
+                    you'll
+                    leave feeling refreshed and renewed. Book your St. Maarten mobile massage today for an exceptional
+                    experience.</p></div>
+                        <div class="w3-col s2 w3-red"><a href="#top" title="">top</a></div>
+                    </div>
+
+
+
+                <%- include('./assets/botNav'); %>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <!--  -->
+
+            <!-- <amp-img id="firstImage" ; layout='responsive' ; style="float:right;"
+        alt="st maarten massage onsite on location" title="sxm-massage-ban1"
+        src="<%= img_arr[0].src %>" width="180px" height="180px" 
+        srcset="
+        <%= img_arr[0].src %> 220w,
+        <%= img_arr[0].src %> 320w"
+ sizes="(max-width: 350px) 18vw, 22vw">
+    </amp-img> -->
+        </div>
+    </div>
+</body>
+
+</html>
