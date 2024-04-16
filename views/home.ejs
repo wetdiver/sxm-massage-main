@@ -48,7 +48,11 @@
     <div data-role="page">
         <div data-head="header">
             <div data-title="">
-                <%= site_title %>
+                <div class="w3-row">
+                    <div class="w3-col s7"><%= site_title %></div>
+                    <div class="w3-col s4 w3-text-white">Tel: +1 721 526 5574</div>
+                </div>          
+            
             </div>
 
             <%- include('./assets/topNav'); %>
@@ -63,18 +67,18 @@
 
                 <!--  -->
                 <div class="w3-content w3-padding">
+                    
+
                     <section>
                         <h1>St Maarten Massage | Mobile Spa | Full Service Massage</h1>
-                        <div class="w3-row">
+                        <div class="w3-row w3-padding-32">
                             
-                            <div class="w3-col m8">
+                            <div class="w3-col s12 m7 w3-padding">
                                 <p>Looking for a "massage spa near me in St. Maarten" but don't want the hassle of
                                     traveling?</p>
                                     <p><strong>Book your massage in sint maarten 24 hours a day by calling +1 721 526 5574</strong></p>
                                     
-                                <img src="<%= img_arr[5].src %>" alt="<%= img_arr[5].alt %>"
-                                    title="<%= img_arr[5].title %>" width="100%"
-                                    class="w3-image w3-col m4 w3-right w3-padding-32">
+                               
 
                                
                                     <p>SXM Massage Mobile brings the spa directly to you! Whether you're
@@ -90,12 +94,15 @@
                                     to unwind and truly embrace the carefree Caribbean spirit of Sint Maarten.</p>
 
                             </div>
-                            <div class="w3-col m4 w3-padding">
+                            <div class="w3-col s12 m5 ">
                                 <ul class="w3-ul">
                                     <li>Relax Massage in St Maarten</li>
                                     <li>SXM Deep Tissue Treatments</li>
                                     <li>Couple Massage in St Martin</li>
                                     <li>Cupecoy mobile massage</li>
+                                    <img src="<%= img_arr[0].src %>" alt="<%= img_arr[0].alt %>"
+                                    title="<%= img_arr[0].title %>" width="100%" class="w3-image" />
+                                    <span class="w3-label"><a href="/for-couples" title="book a couple massage in st maarten">Couples Massage</a> </span>
                                 </ul>
                             </div>
                         </div>
@@ -108,8 +115,11 @@
 
                         <div class="w3-row">
                             <div class="w3-col s12 m4 l2 w3-right w3-padding">
-                                <img src="<%= img_arr[0].src %>" alt="<%= img_arr[0].alt %>"
-                                    title="<%= img_arr[0].title %>" width="100%" class="w3-image" />
+                            <ul class="w3-ul">
+                                <li><a href="http://sxm-service.com" title="sxm concierge helper">Concierge service</a></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
 
                             </div>
 
@@ -119,12 +129,12 @@
                                     door.
                                 </p>
                                 <div class="w3-bar">
-                                    <a href="https://st-maarten-mobile-massage-service.com/option/relaxation.html#home"
+                                    <a href="/relaxation"
                                         title="relaxation massage" class="w3-bar-item">Relax</a>
                                     <a href="https://sxm-service.com/massage/mobile-treatments/st-maarten-couple-massage/#main"
                                         title="massage in bed treatment" class="w3-bar-item">In-Room Massage</a>
-                                    <a href="#" title="couple island self pamper" class="w3-bar-item">For Couples</a>
-                                    <a href="https://sxm-service.com/massage/mobile-treatments/group-package-deals/"
+                                    <a href="/for-couples" title="couple island self pamper" class="w3-bar-item">For Couples</a>
+                                    <a href="/group-package-deals"
                                         title="special rates for groups of 4 or more" class="w3-bar-item">Group
                                         Packages</a>
                                 </div>
@@ -152,16 +162,12 @@
                                     friend.</p>
 
                             </div>
-                            <div class="w3-col s4 w3-right w3-padding">
-                                <ul>
+                            <div class="w3-col m4 w3-right w3-padding">
+                                <ul class="w3-ul">
                                     <li><strong>Island Activities</strong></li>
                                     <li>Beachfront resorts SXM</li>
                                     <li>Spas and wellness centers</li>
                                     <li>Yoga studios SXM</li>
-                                    <li>Sunset cruises</li>
-                                    <li>Guided nature walks</li>
-                                    <li>Local art galleries</li>
-                                </ul>
                             </div>
 
 
@@ -192,6 +198,15 @@
                             relaxing and rejuvenating experience for all our clients.</p>
                         <p>Our skilled massage therapists are dedicated
                             to customizing each session to meet your individual needs.</p>
+                            <div class="w3-col m4 w3-right w3-padding">
+                                <ul class="w3-ul">
+                              
+                                    <li>Sunset cruises</li>
+                                    <li>Guided nature walks</li>
+                                    <li>Local art galleries</li>
+                                </ul>
+                            </div>
+
                         <p>SXM Massage Mobile is your one-stop shop for a luxurious and convenient massage experience in
                             St. Maarten. We combine professional expertise with the tranquility of a mobile spa,
                             allowing you to unwind and recharge in the comfort of your chosen location.</p>

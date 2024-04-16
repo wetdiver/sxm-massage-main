@@ -1,66 +1,96 @@
 <!DOCTYPE html>
-<html>
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel='canonical' href=''>
     <title>
         <%= pg_title %>
     </title>
-    <meta name="description" content="<%= pg_title %>">
+    <meta name="description" content="<%= pg_description %>">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+
+
+
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
-      <script defer src='/js/main.js'></script>
-   <link rel='stylesheet' type='text/css' media='screen' href='/css/w3.css'>
-   %- include('./assets/meta_'); %>
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM1XGQ6SW4"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-   
-     gtag('config', 'G-ZM1XGQ6SW4');
-   </script>
+    <script async custom-element="amp-fit-text" src="/js/amp-fit-text-0.1.js"></script>
+    <script defer src='/js/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/font.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/w3.css'>
+
+
+    <meta property=og:url content="/" />
+
+  <%- include('./assets/meta_'); %>
+
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM1XGQ6SW4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-ZM1XGQ6SW4');
+  </script>
+
 </head>
+ 
 
 <body>
     <div data-role="page">
         <div data-head="header">
-      <div data-title="">  <%= pg_title %></div>
-      <%- include('./assets/topNav'); %>
+            <div data-title="">
+              <div class="w3-row">
+                <div class="w3-col s7"> <%= pg_title %></div>
+                <div class="w3-col s4 w3-text-white">Tel: +1 721 526 5574</div>
+            </div>  
+              </div>
+            <%- include('./assets/topNav'); %>
         </div>
         <div data-page="main">
             <!--  -->
             <div class="ui-content w3-padding">
-                
-
-                 
+                <%- include('./assets/tempNav'); %>
 
                 
-                
-                
-                
+                <h1>Deep Tissue Massage in St. Maarten/SXM - Unwind and Rejuvenate</h1>
 
-                
+                <h2>Melt Away Muscle Tension and Deepen Your Relaxation</h2>
+                <p>Indulge in a therapeutic deep tissue massage during your St. Maarten/SXM vacation. Our experienced therapists will target specific areas of tension, improving circulation and promoting overall well-being. Let us bring the spa experience to you - relax and unwind in the comfort of your villa, hotel, or yacht.</p>
+              
+                <h3>Benefits of Deep Tissue Massage:</h3>
+                <ul>
+                  <li>Reduces muscle tension and pain</li>
+                  <li>Improves circulation</li>
+                  <li>Increases flexibility and range of motion</li>
+                  <li>Promotes relaxation and stress relief</li>
+                  <li>Boosts energy levels</li>
+                </ul>
+              
+                <h4>Book Your Deep Tissue Massage Today!</h4>
+                <p>Contact us to schedule your deep tissue massage and experience the ultimate relaxation during your St. Maarten/SXM getaway. We offer flexible scheduling to fit your vacation plans.</p>
+              
+                <h5>Contact Information:</h5>
+                <p><a href="http://sxm-service.com/massage/mobile-treatments/" title="st maarten massage home">St Maarten Massage Mobile Service</a> <br>
+                  Phone: +1 721 526 5574<br>
+             
+                </p>
+              
+                <h6>Let us help you unwind and rediscover your inner peace. Book your deep tissue massage today!</h6>
 
-                
+
+
+
+
+
+
 
 
 
 
 
             </div>
-            <!--  -->
-
-            <!-- <amp-img id="firstImage" ; layout='responsive' ; style="float:right;"
-        alt="st maarten massage onsite on location" title="sxm-massage-ban1"
-        src="<%= img_arr[0].src %>" width="180px" height="180px" 
-        srcset="
-        <%= img_arr[0].src %> 220w,
-        <%= img_arr[0].src %> 320w"
- sizes="(max-width: 350px) 18vw, 22vw">
-    </amp-img> -->
         </div>
     </div>
 </body>

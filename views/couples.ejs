@@ -40,7 +40,14 @@
 <body>
     <div data-role="page">
         <div data-head="header">
-            <div data-title=""> <%= pg_title %></div>
+            <div data-title=""> 
+                <div class="w3-row">
+                    <div class="w3-col s7"><%= pg_title %></div>
+                    <div class="w3-col s4">Tel: +1 721 526 5574</div>
+                </div>  
+            </div>
+
+
             <%- include('./assets/topNav'); %>
         </div>
         <div data-page="main">
@@ -50,16 +57,26 @@
 
                 <h1>Rejuvenate Together: In-Room Couple's Massage Service in Sint Maarten</h1>
 
-                <p>Unwind and reconnect with your loved one with a relaxing in-room couple's massage during your
+                <div class="w3-row">
+                    <div class="w3-col s12 m8 l10"> <p>Unwind and reconnect with your loved one with a relaxing in-room couple's massage during your
                     Caribbean vacation. Our mobile massage therapists bring the spa experience directly to your hotel
-                    room, creating a tranquil haven for two</p>
+                    room, creating a tranquil haven for two</p></div>
+                    <div class="w3-col s12 m4 l2"><img src="<%= img_arr[0].src %>" alt="<%= img_arr[0].alt %>"
+                                    title="<%= img_arr[0].title %>" width="100%" class="w3-image" /></div>
+                </div>
+
+               
 
                 <h2>Spoil yourselves in Paradise with a Mobile Couple's Massage</h2>
 
                 <p>Imagine this: you and your partner are on a romantic getaway in Sint Maarten, soaking up the
                     Caribbean sun. You're feeling relaxed and carefree, but you could both use a little extra pampering.
                     That's where our mobile couple's massage service comes in.</p>
-
+                    <div class="w3-row">
+                        <div class="w3-col m4 w3-padding"><img src="<%= img_arr[1].src  %>" alt="<%=img_arr[1].alt %>" class="w3-image" /></div>
+                        <div class="w3-col m4 w3-padding "><img src="<%= img_arr[2].src  %>" alt="<%=img_arr[2].alt %>" class="w3-image" /></div>
+                        <div class="w3-col m4 w3-padding "><img src="<%= img_arr[3].src  %>" alt="<%=img_arr[3].alt %>" class="w3-image" /></div>
+                    </div>
                 <h3>The Perfect Way to De-Stress and Reconnect</h3>
                 <p>A couple's massage is a great way to de-stress and reconnect with your partner. The physical touch of
                     massage can help to reduce tension and anxiety, while the shared experience can create a sense of

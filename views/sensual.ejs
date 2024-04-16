@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel='canonical' href=''>
+    <title>
+        <%= pg_title %>
+    </title>
+    <meta name="description" content="<%= pg_description %>">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-fit-text" src="/js/amp-fit-text-0.1.js"></script>
+    <script defer src='/js/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/font.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/w3.css'>
+
+
+    <meta property=og:url content="/" />
+
+    <%- include('./assets/meta_'); %>
+
+
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM1XGQ6SW4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZM1XGQ6SW4');
+        </script>
+
+</head>
+
+
+<body>
+    <div data-role="page">
+        <div data-head="header">
+            <div data-title="">
+                <div class="w3-row">
+                    <div class="w3-col s7">
+                        <%= pg_title %>
+
+                    </div>
+                    <div class="w3-col s4">Tel: +1 721 526 5574</div>
+                </div>
+            </div>
+
+
+            <%- include('./assets/topNav'); %>
+        </div>
+        <div data-page="main">
+            <!--  -->
+            <div class="ui-content w3-padding">
+                <%- include('./assets/tempNav'); %>
+
+
+
+
+                    Indulge in pure bliss with our exotic sensual massage experience in St. Maarten/SXM. Let our skilled
+                    therapists transport you to a state of relaxation and pleasure as they use a combination of
+                    techniques to awaken your senses and release tension from your body. Feel the stress melt away as
+                    you experience the ultimate luxury in our serene spa setting. Book now and treat yourself to a truly
+                    unforgettable experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <!--  -->
+
+            <!-- <amp-img id="firstImage" ; layout='responsive' ; style="float:right;"
+        alt="st maarten massage onsite on location" title="sxm-massage-ban1"
+        src="<%= img_arr[0].src %>" width="180px" height="180px" 
+        srcset="
+        <%= img_arr[0].src %> 220w,
+        <%= img_arr[0].src %> 320w"
+ sizes="(max-width: 350px) 18vw, 22vw">
+    </amp-img> -->
+        </div>
+    </div>
+</body>
+
+</html>

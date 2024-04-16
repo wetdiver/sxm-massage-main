@@ -1,66 +1,95 @@
 <!DOCTYPE html>
-<html>
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel='canonical' href=''>
     <title>
         <%= pg_title %>
     </title>
-    <meta name="description" content="<%= pg_title %>">
+    <meta name="description" content="<%= pg_description %>">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+
+
+
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
-      <script defer src='/js/main.js'></script>
-   <link rel='stylesheet' type='text/css' media='screen' href='/css/w3.css'>
-   %- include('./assets/meta_'); %>
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM1XGQ6SW4"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-   
-     gtag('config', 'G-ZM1XGQ6SW4');
-   </script> 
+    <script async custom-element="amp-fit-text" src="/js/amp-fit-text-0.1.js"></script>
+    <script defer src='/js/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/font.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/w3.css'>
+
+
+    <meta property=og:url content="/" />
+
+  <%- include('./assets/meta_'); %>
+
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM1XGQ6SW4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-ZM1XGQ6SW4');
+  </script>
+
 </head>
+ 
 
 <body>
     <div data-role="page">
         <div data-head="header">
-      <div data-title="">  <%= pg_title %></div>
-      <%- include('./assets/topNav'); %>
+            <div data-title="">
+              
+              <div class="w3-row">
+                <div class="w3-col s7"><%= pg_title %></div>
+                <div class="w3-col s4 w3-text-white">Tel: +1 721 526 5574</div>
+            </div>  
+            
+            </div>
+            <%- include('./assets/topNav'); %>
         </div>
         <div data-page="main">
             <!--  -->
             <div class="ui-content w3-padding">
-                
-
-                 
+                <%- include('./assets/tempNav'); %>
 
                 
-                
-                
-                
+                <h1>Relaxation Massage in St. Maarten/SXM - Unwind and De-Stress</h1>
 
-                
+                <h2>Indulge in Tranquility During Your Island Getaway</h2>
+                <p>Let go of vacation worries and melt away stress with a personalized relaxation massage in St. Maarten/SXM. Our skilled therapists will create a customized experience using techniques designed to soothe your muscles and calm your mind. Relax on your villa's balcony, by the pool, or in the comfort of your hotel room - we bring the spa to you.</p>
+              
+                <h3>Benefits of Relaxation Massage:</h3>
+                <ul>
+                  <li>Reduces muscle tension and stress</li>
+                  <li>Improves sleep quality</li>
+                  <li>Boosts mood and well-being</</li>
+                  <li>Lowers blood pressure</li>
+                  <li>Enhances relaxation and mindfulness</li>
+                </ul>
+              
+                <h4>Unwind and Rejuvenate with a Massage Designed for You</h4>
+                <p>We offer a variety of massage techniques to cater to your specific needs. Choose from Swedish massage, aromatherapy massage, or a combination to create the perfect relaxation experience. Let us customize a massage that leaves you feeling refreshed and rejuvenated.</p>
+              
+                <h5>Book Your Relaxation Massage Today!</h5>
+                <p>Contact us to schedule your in-room massage and experience ultimate relaxation during your St. Maarten/SXM vacation. We offer flexible scheduling to accommodate your itinerary.</p>
+              
+                <h6>Let us help you unwind and rediscover your inner peace. Book your relaxation massage today!</h6>
+              
 
-                
+
+
+
+
+
 
 
 
 
 
             </div>
-            <!--  -->
-
-            <!-- <amp-img id="firstImage" ; layout='responsive' ; style="float:right;"
-        alt="st maarten massage onsite on location" title="sxm-massage-ban1"
-        src="<%= img_arr[0].src %>" width="180px" height="180px" 
-        srcset="
-        <%= img_arr[0].src %> 220w,
-        <%= img_arr[0].src %> 320w"
- sizes="(max-width: 350px) 18vw, 22vw">
-    </amp-img> -->
         </div>
     </div>
 </body>
