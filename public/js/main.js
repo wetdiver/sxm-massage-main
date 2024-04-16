@@ -11,7 +11,13 @@ dataLink=document.querySelectorAll('[data-link]');
 
 tempMenu.forEach(element => {
     element.style.background='blue'
-    ///element.innerText='2222'
+    element.style. background=' #2a2a36';
+    element.style.fontSize= '73%';
+    element.style.wordSpacing= '15px';
+    element.style.textTransform= 'capitalize';
+    element.style.fontStyle= 'italic';
+    element.style.color= '#FFEB3B';
+    element.style.padding= '1%';
 })
 
 
