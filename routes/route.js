@@ -113,9 +113,14 @@ router.get(x_cat[0].url, function (req, res) {
     pg_title:x_cat[0].pg_title,
     site_title:x_cat[0].site_title,
     pg_description:x_cat[0].pg_description,
-    img_arr:[{src:x_cat[0].imgArr[0].src}],
-    textSlide_arr:dt.s_data.local_areas[randx()]
-  
+    textSlide_arr:dt.s_data.local_areas[randx()],
+    img_arr:[
+      {src:x_cat[0].imgArr[0].src,alt:x_cat[0].imgArr[0].alt,title:x_cat[0].imgArr[0].title},
+      {src:x_cat[0].imgArr[1].src,alt:x_cat[0].imgArr[1].alt,title:x_cat[0].imgArr[1].title},
+      {src:x_cat[0].imgArr[2].src,alt:x_cat[0].imgArr[2].alt,title:x_cat[0].imgArr[2].title},
+      {src:x_cat[0].imgArr[3].src,alt:x_cat[0].imgArr[3].alt,title:x_cat[0].imgArr[3].title},
+    
+    ]
   })
 });
 // groups page route.
@@ -135,13 +140,142 @@ router.get(x_cat[1].url, function (req, res) {
       {src:x_cat[1].imgArr[0].src,alt:x_cat[1].imgArr[0].alt,title:x_cat[1].imgArr[0].title},
       {src:x_cat[1].imgArr[1].src,alt:x_cat[1].imgArr[1].alt,title:x_cat[1].imgArr[1].title},
       {src:x_cat[1].imgArr[2].src,alt:x_cat[1].imgArr[2].alt,title:x_cat[1].imgArr[2].title},
-      {src:x_cat[1].imgArr[3].src,alt:x_cat[1].imgArr[3].alt,title:x_cat[1].imgArr[3].title}
+      {src:x_cat[1].imgArr[3].src,alt:x_cat[1].imgArr[3].alt,title:x_cat[1].imgArr[3].title} 
 
     
     ]
   
   })
 });
+
+
+//////////////NATURIST////////////
+
+router.get(x_cat[2].url, function (req, res) {
+  res.render(x_cat[2].id,{
+    t_nav:[
+      x_cat[2].t_nav[0],
+      x_cat[2].t_nav[1],
+      x_cat[2].t_nav[2]
+    
+    ],
+    theId:x_cat[2].id,
+    pg_title:x_cat[2].pg_title,
+    site_title:x_cat[2].site_title,
+    pg_description:x_cat[2].pg_description,
+    img_arr:[
+      {src:x_cat[2].imgArr[0].src,alt:x_cat[2].imgArr[0].alt,title:x_cat[2].imgArr[0].title},
+      {src:x_cat[2].imgArr[1].src,alt:x_cat[2].imgArr[1].alt,title:x_cat[2].imgArr[1].title},
+      {src:x_cat[2].imgArr[2].src,alt:x_cat[2].imgArr[2].alt,title:x_cat[2].imgArr[2].title},
+      {src:x_cat[2].imgArr[3].src,alt:x_cat[2].imgArr[3].alt,title:x_cat[2].imgArr[3].title}
+
+    
+    ]
+  
+  })
+});
+
+//////////////DEEP TISSUE////////////
+
+router.get(x_cat[3].url, function (req, res) {
+  res.render(x_cat[3].id,{
+    t_nav:[
+      x_cat[3].t_nav[0],
+      x_cat[3].t_nav[1],
+      x_cat[3].t_nav[2]
+    
+    ],
+    theId:x_cat[3].id,
+    pg_title:x_cat[3].pg_title,
+    site_title:x_cat[3].site_title,
+    pg_description:x_cat[3].pg_description,
+    img_arr:[
+      {src:x_cat[3].imgArr[0].src,alt:x_cat[3].imgArr[0].alt,title:x_cat[3].imgArr[0].title},
+   
+
+    
+    ]
+  
+  })
+});
+
+
+//////////////RELAXATION////////////
+
+router.get(x_cat[4].url, function (req, res) {
+  res.render(x_cat[4].id,{
+    t_nav:[
+      x_cat[4].t_nav[0],
+      x_cat[4].t_nav[1],
+      x_cat[4].t_nav[2]
+    
+    ],
+    theId:x_cat[4].id,
+    pg_title:x_cat[4].pg_title,
+    site_title:x_cat[4].site_title,
+    pg_description:x_cat[4].pg_description,
+    img_arr:[
+      {src:x_cat[4].imgArr[0].src,alt:x_cat[4].imgArr[0].alt,title:x_cat[4].imgArr[0].title},
+   
+
+    
+    ]
+  
+  })
+});
+
+
+//////////////SPORTS////////////
+
+router.get(x_cat[5].url, function (req, res) {
+  res.render(x_cat[5].id,{
+    t_nav:[
+      x_cat[5].t_nav[0],
+      x_cat[5].t_nav[1],
+      x_cat[5].t_nav[2]
+    
+    ],
+    theId:x_cat[5].id,
+    pg_title:x_cat[5].pg_title,
+    site_title:x_cat[5].site_title,
+    pg_description:x_cat[5].pg_description,
+    img_arr:[
+      {src:x_cat[5].imgArr[0].src,alt:x_cat[5].imgArr[0].alt,title:x_cat[5].imgArr[0].title},
+   
+
+    
+    ]
+  
+  })
+});
+
+
+//////////////SPORTS////////////
+
+router.get(x_cat[6].url, function (req, res) {
+  res.render(x_cat[6].id,{
+    t_nav:[
+      x_cat[6].t_nav[0],
+      x_cat[6].t_nav[1],
+      x_cat[6].t_nav[2]
+    
+    ],
+    theId:x_cat[6].id,
+    pg_title:x_cat[6].pg_title,
+    site_title:x_cat[6].site_title,
+    pg_description:x_cat[6].pg_description,
+    img_arr:[
+      {src:x_cat[6].imgArr[0].src,alt:x_cat[6].imgArr[0].alt,title:x_cat[6].imgArr[0].title},
+   
+
+    
+    ]
+  
+  })
+});
+
+
+
 
 
 module.exports = router;
