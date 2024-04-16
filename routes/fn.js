@@ -103,9 +103,10 @@ local_areas:[
              reconnect with side-by-side massages tailored for pure relaxation.`,
             imgArr: [
 
+                { src: '/images/couple_2.webp', alt: 'two clients on massage table for couple massage in st maarten', title: 'couple massage in st maarten' },
+                { src: '/images/villa_1.webp', alt: '', title: '' },
+                { src: '/images/villa_2.webp', alt: '', title: '' },
                 { src: '/images/couple_ban_web_1.webp', alt: '', title: '' },
-                { src: foo, alt: '', title: '' },
-                { src: foo, alt: '', title: '' },
 
             ]
         },
@@ -127,7 +128,108 @@ local_areas:[
 
 
             ]
-        }
+        },
+
+        {
+            id: 'naturist',
+            t_nav: ["home", "menu", "naturist"],
+            url: '/naturist-nudist-massage',
+            pg_title: 'St Maarten Naturist - Nudist Massage- BUCKET-LIST time',
+            site_title: 'St Maarten Naturist -SXM Nudist Massage',
+            pg_description: `Receiving a Naturist massage while in st.maarten will leave you feeling like pampered and allows you to full fill your bucket list`,
+            imgArr: [
+
+                { src: '/images/@Villa-Mes-Amis.webp', alt: 'multiple therapist and clients at  villa in terres basse', title: 'sxm-massage@ mes amis villa' },
+                { src: '/images/group2.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+                { src: '/images/group3.webp', alt: 'group of girls getting group massage at villa ', title: 'professional at home massage therapy ' },
+                { src: '/images/group4.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+
+
+            ]
+        },
+        {
+            id: 'deep-tissue',
+            t_nav: ["home", "menu", "deep tissue"],
+            url: '/deep-tissue-treatment',
+            pg_title: 'Deep Tissue Massage in St. Maarten/SXM - Relieve Tension, Rejuvenate You',
+            site_title: 'St Maarten Deep Tissue Massage',
+            pg_description: `Book a deep tissue massage while in st maarten at your hotel-we send a male or female therapist for a real deep ouchh massage`,
+            imgArr: [
+
+                { src: '/images/@Villa-Mes-Amis.webp', alt: 'multiple therapist and clients at  villa in terres basse', title: 'sxm-massage@ mes amis villa' },
+                { src: '/images/group2.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+                { src: '/images/group3.webp', alt: 'group of girls getting group massage at villa ', title: 'professional at home massage therapy ' },
+                { src: '/images/group4.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+
+
+            ]
+        },
+
+        {
+            id: 'relaxation',
+            t_nav: ["home", "menu", "relaxation"],
+            url: '/relaxation',
+            pg_title: 'SRelaxation Massage in St. Maarten/SXM - Unwind and Melt Away Stress',
+            site_title: 'relaxing massage in St. Maarten/SXM',
+            pg_description: `Escape the vacation hustle with a relaxing massage in St. Maarten/SXM. We bring the spa to you - unwind on your villa's balcony, poolside, or in your hotel room.`,
+            imgArr: [
+
+                { src: '/images/@Villa-Mes-Amis.webp', alt: 'multiple therapist and clients at  villa in terres basse', title: 'sxm-massage@ mes amis villa' },
+                { src: '/images/group2.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+                { src: '/images/group3.webp', alt: 'group of girls getting group massage at villa ', title: 'professional at home massage therapy ' },
+                { src: '/images/group4.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+
+
+            ]
+        },
+
+
+
+        {
+            id: 'sport',
+            t_nav: ["home", "menu", "sport"],
+            url: '/sport',
+            pg_title: 'St Maarten Sport Massage',
+            site_title: 'Sport Massage in St. Maarten/SXM - Enhance Performance, Recover Faster',
+            pg_description: `Maintain peak performance and accelerate recovery with a sport massage in St. Maarten/SXM. We bring the spa to you - get a massage at your villa, hotel, or gym.`,
+            imgArr: [
+
+                { src: '/images/@Villa-Mes-Amis.webp', alt: 'multiple therapist and clients at  villa in terres basse', title: 'sxm-massage@ mes amis villa' },
+                { src: '/images/group2.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+                { src: '/images/group3.webp', alt: 'group of girls getting group massage at villa ', title: 'professional at home massage therapy ' },
+                { src: '/images/group4.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+
+
+            ]
+        },
+
+        {
+            id: 'sensual',
+            t_nav: ["home", "menu", "sensual"],
+            url: '/sensual',
+            pg_title: 'St Maarten sensual Massage-Safe-Fun Discreet',
+            site_title: 'sensual Massage in St. Maarten/SXM - Safe -Fun Discreet',
+            pg_description: `Maintain peak performance and accelerate recovery with a sport massage in St. Maarten/SXM. We bring the spa to you - get a massage at your villa, hotel, or gym.`,
+            imgArr: [
+
+                { src: '/images/@Villa-Mes-Amis.webp', alt: 'multiple therapist and clients at  villa in terres basse', title: 'sxm-massage@ mes amis villa' },
+                { src: '/images/group2.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+                { src: '/images/group3.webp', alt: 'group of girls getting group massage at villa ', title: 'professional at home massage therapy ' },
+                { src: '/images/group4.webp', alt: 'two massage tables with white linen at villa for mobile massage ', title: 'professional at home massage therapy ' },
+
+
+            ]
+        },
+
+
+
+
+
+
+
+        
+
+
 
     ],
 
